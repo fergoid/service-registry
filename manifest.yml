@@ -1,0 +1,6 @@
+---
+applications:
+- name: eureka-registry
+  memory: 256M
+  host: service-registry
+  path: target/service-registry.jar
